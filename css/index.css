@@ -136,11 +136,13 @@ header div {
 .skills h3, .portfolio h3 {
   margin-top: 15px;
   margin-bottom: 20px;
+  width: 300px;
 }
 
 .underline {
   padding-bottom: 5px;
   border-bottom: 1px solid whitesmoke;
+  
 }
 
 .skills div {
