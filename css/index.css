@@ -116,18 +116,17 @@ header div {
 }
 
 .skills {
-  text-align: center;
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #333;
   color: white;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .skills h1 {
   flex: 0 0 100%;
-  padding-top: 20px;
 }
 
 .skills h3, .portfolio h3 {
@@ -141,7 +140,8 @@ header div {
 }
 
 .skills div {
-  vertical-align: center;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 li {
@@ -217,16 +217,6 @@ a:visited {
   border-color: #333;
 }
 
-@media only screen and (max-width: 800px) {
-  .info img {
-    margin-top: 15px;
-  }
+@media only screen and (max-width: 600px) {
 
-  .skills {
-    display: block;
-  }
-
-  li {
-    text-align: center;
-  }
 }
