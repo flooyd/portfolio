@@ -222,14 +222,37 @@ a:visited {
 }
 
 @media only screen and (max-width: 475px) {
+  .info img {
+    margin-top: 8px;
+  }
+  header {
+    height: 85px;
+  }
   header .links {
     display: inline-block;
     font-size: 20px;
     margin-right: 10px;
-    padding: 15px 0px;
+    padding: 4px 0px;
   }
 
   header div h3 {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  header div {
+    float: none;
+  }
+
+  header h1 {
+    font-size: 22px;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact {
+    padding-top: 85px;
   }
 }
