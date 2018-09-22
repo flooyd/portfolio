@@ -217,7 +217,7 @@ a:visited {
   border-color: #333;
 }
 
-@media only screen and (max-width: 513px) {
+@media only screen and (max-width: 800px) {
   .info img {
     margin-top: 15px;
   }
