@@ -145,13 +145,13 @@ header div {
 
 .skills div {
   display: inline-block;
+  min-width: 300px;
   margin: 0 auto;
 }
 
 li {
   text-decoration: none;
   list-style: none;
-  text-align: left;
   padding: 0px;
   margin-top: 12px;
 }
