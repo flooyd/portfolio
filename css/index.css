@@ -240,10 +240,15 @@ a:visited {
 
 .live {
   background-color: #333;
-  border: 1px solid whitesmoke;
+  border: 1px solid crimson !important;
   color: whitesmoke !important;
   margin-left: 10px;
   font-size: 16px;
+}
+
+.live:hover {
+  background-color: whitesmoke !important;
+  color: black !important;
 }
 
 .returnHidden {
