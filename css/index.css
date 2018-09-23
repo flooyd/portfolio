@@ -239,8 +239,9 @@ a:visited {
 }
 
 .live {
-  background-color: white;
-  border: 1px solid #333;
+  background-color: #333;
+  border: 1px solid whitesmoke;
+  color: whitesmoke !important;
   margin-left: 10px;
   font-size: 16px;
 }
