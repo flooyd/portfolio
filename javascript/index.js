@@ -26,14 +26,3 @@ function onMouseOver() {
   }
 }
 
-$('.live').click(() => {
-  console.log('live');
-  $('iframe').removeClass('iframeHidden').addClass('iframeLive');
-  $('.returnButton').removeClass('returnHidden').addClass('returnLive');
-})
-
-$('.returnButton').click(() => {
-  console.log('return');
-  $('iframe').removeClass('iframeLive').addClass('iframeHidden');
-  $('.returnButton').removeClass('returnLive').addClass('returnHidden');
-})

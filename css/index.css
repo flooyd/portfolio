@@ -224,58 +224,6 @@ a:visited {
   border-color: #333;
 }
 
-.iframeHidden {
-  display: none;
-}
-
-.iframeLive {
-  display: initial;
-  position: fixed;;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 100%;
-  height: 100%;
-}
-
-.live {
-  background-color: #333;
-  border: 1px solid crimson !important;
-  color: whitesmoke !important;
-  margin-left: 10px;
-  font-size: 16px;
-}
-
-.live:hover {
-  background-color: whitesmoke !important;
-  color: black !important;
-}
-
-.returnHidden {
-  display: none;
-}
-
-.returnLive {
-  display: initial;
-  position: fixed !important;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 200px;
-  background-color: crimson !important;
-  color: white;
-  border: 1px solid white;
-  font-size: 22px;
-  margin: 15px auto;
-  background-color: white;
-  z-index: 100;
-}
-
-.live:hover{
-  background-color: #333;
-  color: whitesmoke;
-  cursor: pointer;
-}
 
 @media only screen and (max-width: 475px) {
   .info img {
