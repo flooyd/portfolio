@@ -8,13 +8,13 @@ body a {
 }
 
 body a:hover {
-  color: crimson;
+  color: blue;
   text-decoration: none;
 }
 
 h1 {
   font-size: 24px;
-  color: crimson;
+  color: blue;
   font-family: 'Merriweather', serif;
 }
 
@@ -64,12 +64,12 @@ header .links {
 #phone, #email {
   text-decoration: underline;
   float: right;
-  color: crimson;
+  color: blue;
 }
 
 #phone:hover, #email:hover {
   font-weight: bold;
-  color: crimson;
+  color: blue;
 }
 
 .phone, .email {
